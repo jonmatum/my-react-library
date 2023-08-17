@@ -9,6 +9,9 @@
     "build": "rollup -c rollup.config.mjs",
     "test": "jest"
   },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
