@@ -1,10 +1,11 @@
 {
   "name": "@jonmatum/my-react-library",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Library for react applications",
   "type": "module",
-  "main": "index.js",
-  "style": "styles.css",
+  "main": "dist/index.js",
+  "style": "dist/styles.css",
+  "module": "dist/index.esm.js",
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
