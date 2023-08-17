@@ -27,7 +27,7 @@ export default {
       plugins: [],
       minimize: true,
       sourceMap: 'inline',
-      extract: false,  // set this to `true` if you want to extract CSS to a separate file
+      extract: true,  // set this to `true` if you want to extract CSS to a separate file
       modules: true,
       use: ['sass'],  // if you need to use SCSS
     }),

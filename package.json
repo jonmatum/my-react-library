@@ -4,6 +4,7 @@
   "description": "Library for react applications",
   "type": "module",
   "main": "index.js",
+  "style": "styles.css",
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
@@ -13,6 +14,8 @@
   "scripts": {
     "release": "standard-version",
     "build": "rollup -c rollup.config.mjs",
+    "build:css": "postcss src/styles.css -o dist/styles.css",
+    "watch:css": "postcss src/styles.css -o dist/styles.css --watch",
     "test": "jest"
   },
   "publishConfig": {
@@ -41,6 +44,7 @@
     "jest-environment-jsdom": "^29.6.2",
     "lint-staged": "^14.0.0",
     "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
     "rollup": "^3.28.0",
     "rollup-plugin-external-globals": "^0.8.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
