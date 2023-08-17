@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/jonmatum/my-react-library/compare/v1.4.0...v1.4.1) (2023-08-17)
+
+
+### Bug Fixes
+
+* **ts:** Component exports ([ca28ce1](https://github.com/jonmatum/my-react-library/commit/ca28ce10f072832231dec2d35b104bef041820a9))
+* **ts:** format ([ad4177f](https://github.com/jonmatum/my-react-library/commit/ad4177f04660b8056274952d46a803e9f22f5a84))
+
 ## [1.4.0](https://github.com/jonmatum/my-react-library/compare/v1.3.1...v1.4.0) (2023-08-17)
 
 
