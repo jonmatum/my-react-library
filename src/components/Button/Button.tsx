@@ -1,6 +1,15 @@
 import React from 'react';
 
-// Define Button props type
+/**
+ * Button properties.
+ * 
+ * @typedef {Object} ButtonProps
+ * 
+ * @property {string} label - Label to display on the button.
+ * @property {('primary' | 'secondary')} [variant='primary'] - Button variant. Defaults to 'primary'.
+ * @property {() => void} [onClick] - Click event handler for the button.
+ * @property {string} [className] - Additional CSS classes for the button.
+ */
 interface ButtonProps {
   label: string;
   variant?: 'primary' | 'secondary'; // Allow two variants of the button
@@ -8,6 +17,13 @@ interface ButtonProps {
   className?: string;    // Allow additional classes for more customization
 }
 
+/**
+ * Button component.
+ * 
+ * @param {ButtonProps} props - Properties passed to the component.
+ * 
+ * @returns {React.FC<ButtonProps>} Button element.
+ */
 const Button: React.FC<ButtonProps> = ({ 
   label, 
   variant = 'primary',
