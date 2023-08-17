@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/jonmatum/my-react-library/compare/v1.2.0...v1.3.0) (2023-08-17)
+
+
+### Features
+
+* **config:** styles ([64429d8](https://github.com/jonmatum/my-react-library/commit/64429d8425699c144d71cfae9ffa9fbd6becfd30))
+
 ## [1.2.0](https://github.com/jonmatum/my-react-library/compare/v1.1.1...v1.2.0) (2023-08-17)
 
 
