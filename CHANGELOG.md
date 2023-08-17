@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/jonmatum/my-react-library/compare/v1.1.1...v1.2.0) (2023-08-17)
+
+
+### Features
+
+* **config:** husky/pre-commit ([b632c7d](https://github.com/jonmatum/my-react-library/commit/b632c7d7c3fa6c7032cefa687067a985d4006554))
+* **config:** NPM release ([62104a6](https://github.com/jonmatum/my-react-library/commit/62104a6e44c7cdfe25f9f2bdde0bfab8da2a782d))
+* **config:** NPM release ([a4784de](https://github.com/jonmatum/my-react-library/commit/a4784de80b794acdd7c216b9fb5abf680029f0ed))
+
 ### [1.1.1](https://github.com/jonmatum/my-react-library/compare/v1.1.0...v1.1.1) (2023-08-17)
 
 
