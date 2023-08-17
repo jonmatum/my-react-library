@@ -3,6 +3,7 @@
   "version": "1.3.1",
   "description": "Library for react applications",
   "type": "module",
+  "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "style": "dist/styles.css",
   "module": "dist/index.esm.js",
@@ -23,7 +24,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jonatan Mata",
   "license": "ISC",
   "dependencies": {
     "@npmcli/package-json": "^5.0.0",

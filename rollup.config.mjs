@@ -22,7 +22,14 @@ export default {
     peerDepsExternal(),
     resolve(),
     commonjs(),
-    typescript({ useTsconfigDeclarationDir: true }),
+    typescript({
+      clean: true,
+      tsconfigOverride: {
+        compilerOptions: {
+          declaration: true,
+        },
+      },
+    }),
     postcss({
       plugins: [],
       minimize: true,
