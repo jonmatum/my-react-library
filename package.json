@@ -1,6 +1,6 @@
 {
   "name": "@jonmatum/my-react-library",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Library for react applications",
   "type": "module",
   "types": "dist/index.d.ts",
