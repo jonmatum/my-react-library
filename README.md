@@ -50,6 +50,46 @@ For style customization, modify the styles located in `src/styles.css`.
 
 This library is designed to be published on GitHub's npm registry. Ensure you have appropriate permissions and credentials for publishing updates.
 
+## Pre-commit Hook Configuration with Husky
+
+This library uses Husky to manage git hooks. One of the essential hooks set up is the `pre-commit` hook. This hook ensures that before every commit, certain tasks like linting and formatting are executed to maintain code quality and consistency.
+
+### Setting up Husky's pre-commit hook:
+
+1. **Install Husky**: If not already added, you can install Husky using npm:
+
+   ```bash
+   npm install husky --save-dev
+   ```
+
+2. **Configure the `pre-commit` hook**:
+
+   In the `package.json` file, you can find a `lint-staged` configuration:
+
+   ```json
+   "lint-staged": {
+      "*.ts": [
+         "eslint --fix",
+         "prettier --write"
+      ]
+   }
+   ```
+
+   This means that for every TypeScript (`.ts`) file that's staged, ESLint will check the code, automatically fix any issues it can, and then Prettier will format the code.
+
+3. **Activating the hook**:
+
+   With Husky and `lint-staged` configurations in place, Husky will automatically activate the `pre-commit` hook. Every time you try to make a commit, the tasks defined under `lint-staged` will be executed.
+
+### Working with the hook:
+
+- **Committing**: When you attempt to commit your changes, the `pre-commit` hook will run. If there's an ESLint or Prettier error that can't be automatically fixed, the commit will fail, and you'll need to manually address the issue.
+- **Bypassing the hook**: If you have a valid reason to skip the `pre-commit` checks (not generally recommended), you can use the `--no-verify` flag with the `git commit` command.
+
+---
+
+Note: Regularly updating Husky and related configurations ensures smooth functioning. Always refer to the official [Husky documentation](https://github.com/typicode/husky) for the most recent practices and updates.
+
 ## Dependencies
 
 Key dependencies of this library include:
