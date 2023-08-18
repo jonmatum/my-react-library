@@ -2,7 +2,7 @@
 
 Jonatan Mata presents a powerful library for enhancing React applications with pre-configured components and utilities.
 
-![version](https://img.shields.io/badge/version-1.5.0-blue)
+![version](https://img.shields.io/badge/version-1.5.1-blue)
 ![license](https://img.shields.io/badge/license-ISC-green)
 
 ## Overview
