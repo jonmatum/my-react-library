@@ -82,7 +82,7 @@ Maintain the highest quality and consistency using Husky for git hooks. The `pre
 - **Commit Process**: Address any ESLint or Prettier errors that halt commits.
 - **Bypassing**: In special cases, use the `--no-verify` flag to skip checks. Use sparingly!
 
-For optimal results, keep Husky configurations updated. Refer to the [Husky documentation](https://github.com/typicode/husky) for latest best practices.
+For optimal results, keep Husky configurations updated. Refer to the [Husky documentation](https://github.com/typicode/husky) for the latest best practices.
 
 ## Testing Requirements and Guidelines
 
